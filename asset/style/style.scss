@@ -1,0 +1,143 @@
+* {
+    padding: 0 !important;
+    margin: 0 !important;
+    box-sizing: border-box !important;
+}
+
+.box {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 200px;
+    height: 40px;
+    button {
+        border: none;
+        outline: none;
+        border-radius: 20px;
+        background-color: #e9edc9;
+        color: #d4a373;
+
+        transition: 0.4s;
+
+        &:active {
+            background-color: #e9edc9;
+            color: white;
+        }
+    }
+}
+
+#sec-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh !important;
+    background-image: url("../asset/img/ErfanHesaraki.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    form {
+        width: 550px;
+        height: 400px;
+        background-color: rgba(255, 255, 255, 0.199);
+        // box-shadow: 0px 0px 30px 1px whitesmoke;
+        border-radius: 10px;
+        input {
+            outline: none;
+            border: none;
+            padding: 0px 20px !important;
+            border-bottom: 1px solid #e9edc9;
+            background-color: #e9edc9;
+            color: #d4a373;
+            border-radius: 5px;
+        }
+        button {
+            border: none;
+            outline: none;
+            border-radius: 20px;
+            background-color: #ccd5ae;
+            color: #d4a373;
+            transition: 0.4s;
+
+            &:hover {
+                background-color: #e9edc9;
+            }
+        }
+
+        h1 {
+            color: #fefae0;
+        }
+    }
+}
+
+#sec-2 {
+    figure {
+        background-color: #4d4c4c;
+        height: 350px !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+        img {
+            height: 280px !important;
+            border-radius: 10px;
+        }
+    }
+    figcaption {
+        height: 260px !important;
+        margin-bottom: 25px !important;
+        background-color: #4d4c4c;
+        color: #e9edc9;
+        border-bottom-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+    }
+
+    button {
+        border: none;
+        outline: none;
+        border-radius: 20px;
+        background-color: #d2ae81;
+        color: white;
+        transition: 0.4s;
+
+        &:hover {
+            background-color: #e9edc9;
+            color: #4d4c4c;
+        }
+    }
+}
+
+#pro {
+    background-image: linear-gradient(90deg, #4d4c4c, #e9edc9);
+}
+
+#menu-basket {
+    width: 350px !important;
+    height: 100vh !important;
+    overflow-y: scroll;
+    background-color: rgba(255, 255, 255, 0.343);
+    position: fixed;
+    top: 0;
+    right: 0;
+
+    ul {
+        height: 100vh;
+        li {
+            height: 140px;
+            div {
+                input {
+                    border: none;
+                    outline: none;
+                    background-color: #4f4f4d;
+                }
+            }
+        }
+    }
+    li {
+        list-style-type: none !important;
+    }
+    a {
+        text-decoration: none;
+    }
+}
